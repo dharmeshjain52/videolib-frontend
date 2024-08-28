@@ -48,10 +48,10 @@ export default function Home() {
         </button>
             <div className=" flex flex-row">
                 <h1 className="max-lg:text-xl text-5xl font-bold">Your Videos</h1>
-                <div className="lg:border border-gray-300 ml-72 lg:p-6 rounded-full lg:hover:bg-neutral-700">
+                <div className="lg:border border-gray-300 ml-72 lg:p-6 rounded-full lg:hover:bg-neutral-700 cursor-pointer">
                   <IconArrowNarrowLeft/>
                 </div>
-                <div className="lg:border border-gray-300 max-lg:ml-4 max-lg:mr-4 ml-2 rounded-full lg:p-6 lg:hover:bg-neutral-700">
+                <div className="lg:border border-gray-300 max-lg:ml-4 max-lg:mr-4 ml-2 rounded-full lg:p-6 lg:hover:bg-neutral-700 cursor-pointer">
                   <IconArrowNarrowRight/>
                 </div>
             </div>
