@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { FloatingDockDemo } from "./Components/FloatingDoc";
-
+import Video from './Components/Video'
+import Home from "./page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
